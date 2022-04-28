@@ -1,0 +1,38 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayDepth: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Primer cantante,arial bold,32,&H00FF8300,&H03F7FEFF,&H00000000,&H02FFFFFF,-1,0,0,0,100,100,0,0,1,3.0,0.0,2,10,10,30,1
+Style: Segundo cantante,arial bold,32,&H0000169E,&H03F0F6FF,&H00000000,&H02FFFFFF,-1,0,0,0,100,100,0,0,1,3.0,0.0,2,10,10,30,1
+Style: Tercer Cantante,arial bold,32,&H00CB00FF,&H03F7FEFF,&H00000000,&H02FFFFFF,-1,0,0,0,100,100,0,0,1,3.0,0.0,2,10,10,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:33.10,0:00:36.10,Primer cantante,,0,0,0,,{\K184}1...2...3...\N{\c&HFFFFFF&}Sabes que estamos de paso
+Dialogue: 0,0:00:36.10,0:00:45.11,Primer cantante,,0,0,0,,{\K82}Sabes que {\K82}estamos de {\K82}paso\N{\K212}{\K82}Sabes {\K42}que no {\K82}pasa nada
+Dialogue: 0,0:00:45.11,0:00:49.50,Primer cantante,,0,0,0,,{\K82}El amor tiende {\K82}al fracaso\N{\K82}{\K82}El sol {\K82}al ocaso
+Dialogue: 0,0:00:49.50,0:00:58.31,Primer cantante,,0,0,0,,{\K82}Y los sueños {\K82}a nada\N{\K242}{\K82}Habremos los {\K82}protocolos
+Dialogue: 0,0:00:58.31,0:01:05.20,Primer cantante,,0,0,0,,{\K82}Será otra {\K82}noche perdida\N{\K282}{\K82}Termino durmiendo {\K82}solo
+Dialogue: 0,0:01:05.20,0:01:11.71,Primer cantante,,0,0,0,,{\K82}Más frío {\K82}que el polo\N{\K82}{\K42}Y otra {\K82}noche perdida
+Dialogue: 0,0:01:11.71,0:01:20.50,Primer cantante,,0,0,0,,{\K82}Vamos {\K82}viviendo la vida\N{\K282}{\K82}Bailemos {\K82}hasta morir
+Dialogue: 0,0:01:20.50,0:01:25.21,Primer cantante,,0,0,0,,{\K82}Dime por {\K82}qué se te olvida\N{\K82}{\K82}Que es {\K82}batalla perdida
+Dialogue: 0,0:01:25.21,0:01:46.81,Primer cantante,,0,0,0,,{\K82}Morir por {\K82}vivir\N{\K782}{\K82}Dime por qué {\K82}se te olvida
+Dialogue: 0,0:01:46.81,0:01:55.51,Primer cantante,,0,0,0,,{\K82}Sigue apostando {\K82}al futuro\N{\K262}{\K82}Buscando al {\K82}hombre perfecto
+Dialogue: 0,0:01:55.51,0:02:00.31,Primer cantante,,0,0,0,,{\K82}La espera es {\K82}peor que el cianuro\N{\K142}{\K82}Lo de hoy {\K52}es seguro
+Dialogue: 0,0:02:00.31,0:02:08.80,Primer cantante,,0,0,0,,{\K82}Mañana {\K82}un proyecto\N{\K242}{\K82}Vamos {\K82}viviendo la vida
+Dialogue: 0,0:02:08.80,0:02:15.60,Primer cantante,,0,0,0,,{\K82}Bailemos {\K82}hasta morir\N{\K232}{\K82}Dime por {\K82}qué se te olvida
+Dialogue: 0,0:02:15.60,0:02:21.99,Primer cantante,,0,0,0,,{\K82}Es batalla perdida\N{\K132}{\K82}Morir por {\K82}vivir
+Dialogue: 0,0:02:21.99,0:02:30.59,Primer cantante,,0,0,0,,{\K82}Vamos {\K82}viviendo la vida\N{\K282}{\K82}Bailemos {\K82}hasta morir
+Dialogue: 0,0:02:30.59,0:02:35.11,Primer cantante,,0,0,0,,{\K82}Dime por {\K82}qué se te olvida\N{\K82}{\K82}Que es {\K82}batalla perdida
+Dialogue: 0,0:02:35.11,0:02:56.61,Primer cantante,,0,0,0,,{\K82}Morir por {\K82}vivir\N{\K922}{\K82}Dime por qué {\K82}se te olvida
+Dialogue: 0,0:02:56.61,0:03:05.61,Primer cantante,,0,0,0,,{\K82}Hay tanto {\K82}frío allá {\K82}afuera\N{\K212}{\K82}Hay tanto {\K82}fuego en tu piel
+Dialogue: 0,0:03:05.61,0:03:14.40,Primer cantante,,0,0,0,,{\K82}Yo soy puro {\K82}y lo que {\K82}quieras\N{\K42}{\K82}Mañana quimeras {\K82}{\K112}y la vida un hotel
+Dialogue: 0,0:03:14.40,0:03:23.11,Primer cantante,,0,0,0,,{\K82}Vamos {\K82}viviendo la vida\N{\K282}{\K82}Bailemos {\K82}hasta morir
+Dialogue: 0,0:03:23.11,0:03:28.11,Primer cantante,,0,0,0,,{\K82}Dime por {\K82}qué se te olvida\N{\K82}{\K42}Que es {\K82}batalla perdida
+Dialogue: 0,0:03:28.11,0:03:47.43,Primer cantante,,0,0,0,,{\K102}Morir por vivir\N{\K1182}{\K82}Morir por {\K82}vivir
+Dialogue: 0,0:03:47.43,0:03:52.83,Primer cantante,,0,0,0,,{\K\2c&HD08521&}*Karamato*

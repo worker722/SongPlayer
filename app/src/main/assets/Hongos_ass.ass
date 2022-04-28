@@ -1,0 +1,43 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: php0krbCa
+ScriptType: v4.00+
+Collisions: Normal
+PlayDepth: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:16.30,0:00:19.30,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}1... 2... 3...{\b0}
+Dialogue: 0,0:00:19.30,0:00:26.70,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}¿Quién le dio los hongos\Nal dios que nos hizo?{\b0}
+Dialogue: 0,0:00:26.70,0:00:34.11,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}¿Quién me da respuestas\Npara este misterio?{\b0}
+Dialogue: 0,0:00:34.11,0:00:41.51,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}¿Quién puso elefantes\Nen mi cobertizo?{\b0}
+Dialogue: 0,0:00:41.51,0:00:49.11,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}¿Qué hacen tantos vivos\Nen el cementerio?{\b0}
+Dialogue: 0,0:00:49.11,0:00:56.40,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}¿Qué haces en mi vida dándome\Ninstrucciones?{\b0}
+Dialogue: 0,0:00:56.40,0:01:03.70,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Búscate un oficio‚\Nyo no tengo dueño{\b0}
+Dialogue: 0,0:01:03.70,0:01:11.21,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Ve a pintar graffitis\Ncon dos corazones{\b0}
+Dialogue: 0,0:01:11.21,0:01:14.91,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Búscate un idiota manso\Ny hogareño{\b0}
+Dialogue: 0,0:01:14.91,0:01:22.11,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Ganas de huir de aquí\NSé lo que hay que hacer{\b0}
+Dialogue: 0,0:01:22.11,0:01:29.70,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Para largarme de una\Nvez a otro planeta{\b0}
+Dialogue: 0,0:01:29.70,0:01:37.10,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Ganas de huir de aquí\NDe no volverte a ver{\b0}
+Dialogue: 0,0:01:37.10,0:01:57.31,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Meter mi vida y mi locura\Na esta maleta‚ ¡eh!{\b0}
+Dialogue: 0,0:01:57.31,0:02:05.01,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Tengo algo de inglés para\Npedirme un trago{\b0}
+Dialogue: 0,0:02:05.01,0:02:11.90,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Uso el castellano\Npa′ pagar la renta{\b0}
+Dialogue: 0,0:02:11.90,0:02:18.60,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Duelen los impuestos\Ncuando se los pago{\b0}
+Dialogue: 0,0:02:18.60,0:02:26.70,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Lo poco que soy ya está\Npuesto a la venta{\b0}
+Dialogue: 0,0:02:26.70,0:02:33.91,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Demasiado idiota dirigiendo\Nel mundo{\b0}
+Dialogue: 0,0:02:33.91,0:02:41.40,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Nada a que aferrarme‚\Ntodo lo perdí{\b0}
+Dialogue: 0,0:02:41.40,0:02:48.50,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}El oro y la mierda siempre\Nlos confundo{\b0}
+Dialogue: 0,0:02:48.50,0:02:56.51,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Sigue con tu vida‚ sé feliz por mí\NGanas de huir de aquí{\b0}
+Dialogue: 0,0:02:56.51,0:02:59.91,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Sé lo que hay\Nque hacer{\b0}
+Dialogue: 0,0:02:59.91,0:03:07.50,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Para largarme de una\Nvez a otro planeta{\b0}
+Dialogue: 0,0:03:07.50,0:03:14.70,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Ganas de huir de aquí\NDe no volverte a ver{\b0}
+Dialogue: 0,0:03:14.70,0:03:35.21,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Meter mi vida y mi locura\Na esta maleta{\b0}
+Dialogue: 0,0:03:35.21,0:03:42.61,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Ganas de huir de aquí\NSé lo que hay que hacer{\b0}
+Dialogue: 0,0:03:42.61,0:03:49.90,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Para largarme de una\Nvez a otro planeta{\b0}
+Dialogue: 0,0:03:49.90,0:03:57.11,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Ganas de huir de aquí\NDe no volverte a ver{\b0}
+Dialogue: 0,0:03:57.11,0:04:08.23,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Meter mi vida y mi locura\Na esta maleta‚ ¡eh!{\b0}
+Dialogue: 0,0:04:08.23,0:04:13.63,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}*Karamato*{\b0}
