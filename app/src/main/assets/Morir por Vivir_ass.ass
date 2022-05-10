@@ -1,6 +1,6 @@
 ﻿[Script Info]
 ; This is an Advanced Sub Station Alpha v4+ script.
-Title: adsf
+Title: name
 ScriptType: v4.00+
 Collisions: Normal
 PlayDepth: 0
@@ -13,50 +13,50 @@ Style: Ambos,arial bold,32,&H00CB00FF,&H03F7FEFF,&H00000000,&H02FFFFFF,-1,0,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,00:00:32.03,00:00:35.03,Primer cantante,,0,0,0,,{\K180}1...2...3... \N{\c&HFFFFFF}Sabes que estamos de paso
-Dialogue: 0,00:00:35.03,00:01:12.00,Primer cantante,,0,0,0,,{\K13}Sabes {\K491}{\K15}que {\K2936}{\K35}estamos {\K29}{\K9}de {\K139}{\K26}paso \N{\c&HFFFFFF}Sabes que no pasa nada
-Dialogue: 0,00:01:14.56,00:01:18.82,Primer cantante,,0,0,0,,{\K11}Sabes {\K87}{\K10}que {\K17}{\K7}no {\K233}{\K19}pasa {\K20}{\K17}nada \N{\c&HFFFFFF}El amor tiende al fracaso
-Dialogue: 0,00:01:19.32,00:01:21.53,Primer cantante,,0,0,0,,{\K6}El {\K34}{\K14}amor {\K15}{\K19}tiende {\K18}{\K21}al {\K36}{\K53}fracaso \N{\c&HFFFFFF}El sol al ocaso
-Dialogue: 0,00:01:21.53,00:01:22.25,Primer cantante,,0,0,0,,{\K9}El {\K14}sol {\K6}al {\K18}{\K21}ocaso \N{\c&HFFFFFF}Y los sueños a nada
-Dialogue: 0,00:01:22.25,00:01:25.03,Primer cantante,,0,0,0,,{\K6}Y {\K19}{\K18}los {\K176}{\K25}sueños {\K10}{\K3}a {\K18}nada \N{\c&HFFFFFF}Abremos los protocolos
-Dialogue: 0,00:01:25.03,00:01:26.28,Primer cantante,,0,0,0,,{\K35}Abremos {\K13}{\K18}los {\K57}protocolos \N{\c&HFFFFFF}Será otra noche perdida
-Dialogue: 0,00:01:26.99,00:01:27.74,Primer cantante,,0,0,0,,{\K21}Será {\K24}otra {\K8}noche {\K21}perdida \N{\c&HFFFFFF}Termino durmiendo solo
-Dialogue: 0,00:01:27.74,00:01:29.53,Primer cantante,,0,0,0,,{\K17}Termino {\K53}durmiendo {\K25}{\K82}solo \N{\c&HFFFFFF}Más frío que el polo
-Dialogue: 0,00:01:33.43,00:01:38.27,Primer cantante,,0,0,0,,{\K17}Más {\K225}{\K35}frío {\K9}{\K18}que {\K120}{\K10}el {\K10}{\K35}polo \N{\c&HFFFFFF}Y otra noche perdida
-Dialogue: 0,00:01:38.27,00:01:41.09,Primer cantante,,0,0,0,,{\K6}Y {\K40}{\K17}otra {\K109}{\K32}noche {\K53}{\K21}perdida \N{\c&HFFFFFF}Vamos viviendo la vida (ah-ah-ah)
-Dialogue: 0,00:01:41.09,00:01:42.75,Primer cantante,,0,0,0,,{\K42}Vamos {\K35}{\K53}viviendo {\K5}la {\K16}vida {\K14}(ah-ah-ah) \N{\c&HFFFFFF}Bailemos hasta morir (ah-ah-ah)
-Dialogue: 0,00:01:44.83,00:01:48.12,Primer cantante,,0,0,0,,{\K46}Bailemos {\K65}{\K12}hasta {\K82}{\K17}morir {\K95}{\K9}(ah-ah-ah) \N{\c&HFFFFFF}Dime por qué se te olvida (ah)
-Dialogue: 0,00:01:49.15,00:01:54.18,Primer cantante,,0,0,0,,{\K18}Dime {\K39}{\K15}por {\K37}{\K8}qué {\K6}se {\K7}{\K6}te {\K4}{\K38}olvida {\K315}{\K6}(ah) \N{\c&HFFFFFF}Que es batalla perdida (ah)
-Dialogue: 0,00:01:54.87,00:02:01.19,Primer cantante,,0,0,0,,{\K31}Que {\K137}{\K10}es {\K185}{\K28}batalla {\K89}{\K51}perdida {\K90}{\K6}(ah) \N{\c&HFFFFFF}Morir por vivir
-Dialogue: 0,00:02:02.31,00:02:03.09,Primer cantante,,0,0,0,,{\K53}Morir {\K10}por {\K14}vivir \N{\c&HFFFFFF}Eh-eh-eh-i-eh
-Dialogue: 0,00:02:03.21,00:02:03.59,Primer cantante,,0,0,0,,{\K37}Eh-eh-eh-i-eh \N{\c&HFFFFFF}Dime por qué se te olvida
-Dialogue: 0,00:02:03.72,00:02:09.16,Primer cantante,,0,0,0,,{\K18}Dime {\K9}por {\K3}{\K23}qué {\K35}{\K6}se {\K322}{\K21}te {\K84}{\K19}olvida \N{\c&HFFFFFF}Sigue apostando al futuro
-Dialogue: 0,00:02:20.00,00:02:22.43,Primer cantante,,0,0,0,,{\K26}Sigue {\K46}{\K37}apostando {\K28}al {\K15}{\K89}futuro \N{\c&HFFFFFF}Buscando al hombre perfecto
-Dialogue: 0,00:02:24.21,00:02:26.69,Primer cantante,,0,0,0,,{\K81}Buscando {\K32}al {\K17}hombre {\K46}{\K69}perfecto \N{\c&HFFFFFF}La espera es peor que el cianuro
-Dialogue: 0,00:02:26.69,00:02:31.93,Primer cantante,,0,0,0,,{\K7}La {\K237}{\K21}espera {\K7}es {\K9}{\K22}peor {\K50}{\K13}que {\K61}el {\K51}{\K40}cianuro \N{\c&HFFFFFF}Lo de hoy es seguro
-Dialogue: 0,00:02:32.91,00:02:34.40,Primer cantante,,0,0,0,,{\K42}Lo {\K46}{\K17}de {\K13}hoy {\K5}es {\K23}seguro \N{\c&HFFFFFF}Mañana un proyecto
-Dialogue: 0,00:02:35.14,00:02:36.21,Primer cantante,,0,0,0,,{\K39}Mañana {\K25}{\K14}un {\K28}proyecto \N{\c&HFFFFFF}Vamos viviendo la vida (ah-ah-ah)
-Dialogue: 0,00:02:36.21,00:02:44.00,Primer cantante,,0,0,0,,{\K42}Vamos {\K516}{\K32}viviendo {\K110}{\K25}la {\K18}{\K15}vida {\K9}{\K9}(ah-ah-ah) \N{\c&HFFFFFF}Bailemos hasta morir (ah-ah-ah)
-Dialogue: 0,00:02:44.01,00:02:47.85,Primer cantante,,0,0,0,,{\K36}Bailemos {\K18}{\K16}hasta {\K139}{\K38}morir {\K120}{\K13}(ah-ah-ah) \N{\c&HFFFFFF}Dime por qué se te olvida (ah)
-Dialogue: 0,00:02:48.10,00:02:51.82,Primer cantante,,0,0,0,,{\K9}Dime {\K11}por {\K100}{\K9}qué {\K43}{\K10}se {\K9}te {\K121}{\K30}olvida {\K22}{\K3}(ah) \N{\c&HFFFFFF}Es batalla perdida (ah)
-Dialogue: 0,00:02:52.10,00:02:55.03,Primer cantante,,0,0,0,,{\K6}Es {\K2}{\K28}batalla {\K42}perdida {\K204}{\K8}(ah) \N{\c&HFFFFFF}Morir por vivir
-Dialogue: 0,00:02:55.03,00:02:57.16,Primer cantante,,0,0,0,,{\K20}Morir {\K172}{\K8}por {\K12}vivir \N{\c&HFFFFFF}Vamos viviendo la vida (ah-ah-ah)
-Dialogue: 0,00:02:57.16,00:03:00.06,Primer cantante,,0,0,0,,{\K23}Vamos {\K34}viviendo {\K159}{\K9}la {\K30}{\K12}vida {\K8}{\K12}(ah-ah-ah) \N{\c&HFFFFFF}Bailemos hasta morir (ah-ah-ah)
-Dialogue: 0,00:03:00.62,00:03:05.31,Primer cantante,,0,0,0,,{\K45}Bailemos {\K43}hasta {\K214}{\K18}morir {\K134}{\K12}(ah-ah-ah) \N{\c&HFFFFFF}Dime por qué se te olvida (ah)
-Dialogue: 0,00:03:07.25,00:03:12.85,Primer cantante,,0,0,0,,{\K18}Dime {\K116}{\K27}por {\K100}{\K10}qué {\K12}{\K46}se {\K69}{\K17}te {\K106}{\K31}olvida {\K3}(ah) \N{\c&HFFFFFF}Es batalla perdida (ah)
-Dialogue: 0,00:03:12.85,00:03:13.87,Primer cantante,,0,0,0,,{\K32}Es {\K44}batalla {\K19}perdida {\K2}{\K3}(ah) \N{\c&HFFFFFF}Morir por vivir
-Dialogue: 0,00:03:13.96,00:03:14.71,Primer cantante,,0,0,0,,{\K25}Morir {\K8}por {\K12}{\K29}vivir \N{\c&HFFFFFF}Eh-eh-eh-i-eh
-Dialogue: 0,00:03:14.71,00:03:14.85,Primer cantante,,0,0,0,,{\K14}Eh-eh-eh-i-eh \N{\c&HFFFFFF}Dime por qué se te olvida
-Dialogue: 0,00:03:15.57,00:03:20.88,Primer cantante,,0,0,0,,{\K25}Dime {\K5}{\K12}por {\K288}{\K17}qué {\K7}{\K15}se {\K71}{\K8}te {\K41}{\K37}olvida \N{\c&HFFFFFF}Hay tanto frío allá afuera
-Dialogue: 0,00:03:20.88,00:03:31.94,Primer cantante,,0,0,0,,{\K6}Hay {\K18}{\K21}tanto {\K946}{\K34}frío {\K15}allá {\K27}{\K34}afuera \N{\c&HFFFFFF}Hay tanto fuego en tu piel
-Dialogue: 0,00:03:32.10,00:03:35.38,Primer cantante,,0,0,0,,{\K9}Hay {\K211}{\K17}tanto {\K37}fuego {\K7}en {\K18}tu {\K9}{\K17}piel \N{\c&HFFFFFF}Yo soy puro y lo que quieras
-Dialogue: 0,00:03:35.38,00:03:41.07,Primer cantante,,0,0,0,,{\K6}Yo {\K74}{\K6}soy {\K237}{\K33}puro {\K50}{\K5}y {\K62}lo {\K18}{\K37}que {\K38}quieras \N{\c&HFFFFFF}Mañana quimeras y la vida un newterm
-Dialogue: 0,00:03:42.53,00:03:44.84,Primer cantante,,0,0,0,,{\K25}Mañana {\K46}quimeras {\K46}{\K5}y {\K6}la {\K11}{\K12}vida {\K19}{\K11}un {\K12}{\K34}newterm \N{\c&HFFFFFF}Vamos viviendo la vida (ah-ah-ah)
-Dialogue: 0,00:03:44.84,00:03:49.75,Primer cantante,,0,0,0,,{\K14}Vamos {\K115}viviendo {\K125}{\K11}la {\K18}vida {\K189}{\K18}(ah-ah-ah) \N{\c&HFFFFFF}Bailemos hasta morir (ah-ah-ah)
-Dialogue: 0,00:03:50.22,00:03:54.10,Primer cantante,,0,0,0,,{\K21}Bailemos {\K12}hasta {\K273}{\K31}morir {\K39}{\K10}(ah-ah-ah) \N{\c&HFFFFFF}Dime por qué se te olvida (ah)
-Dialogue: 0,00:03:54.25,00:04:04.93,Primer cantante,,0,0,0,,{\K9}Dime {\K170}{\K17}por {\K181}{\K9}qué {\K116}{\K15}se {\K303}{\K57}te {\K57}{\K32}olvida {\K93}{\K3}(ah) \N{\c&HFFFFFF}Que es batalla perdida (ah)
-Dialogue: 0,00:04:04.98,00:04:22.87,Primer cantante,,0,0,0,,{\K10}Que {\K120}es {\K752}{\K55}batalla {\K250}{\K221}perdida {\K362}{\K15}(ah) \N{\c&HFFFFFF}Morir por vivir
-Dialogue: 0,00:04:28.63,00:04:29.84,Primer cantante,,0,0,0,,{\K64}Morir {\K10}por {\K45}vivir \N{\c&HFFFFFF}Yeh-eh-eh-i-eh
-Dialogue: 0,00:04:30.09,00:04:31.30,Primer cantante,,0,0,0,,{\K120}Yeh-eh-eh-i-eh \N{\c&HFFFFFF}Morir por vivir
-Dialogue: 0,00:04:31.30,00:04:32.16,Primer cantante,,0,0,0,,{\K29}Morir {\K4}{\K26}por {\K25}vivir
-Dialogue: 0,00:03:59.06,00:12:59.05,Primer cantante,,0,0,0,,{\c&HD08521&}*Karamato*
+Dialogue: 0,00:00:15.98,00:00:18.98,Primer cantante,,0,0,0,,{\K180}1...2...3... \N{\c&HFFFFFF}Sabes que estamos de paso
+Dialogue: 0,00:00:18.98,00:00:37.99,Primer cantante,,0,0,0,,{\K18}Sabes {\K435}{\K18}que {\K7}{\K136}estamos {\K46}{\K12}de {\K697}{\K56}paso \N{\c&HFFFFFF}Sabes que no pasa nada
+Dialogue: 0,00:00:40.17,00:00:43.09,Primer cantante,,0,0,0,,{\K42}Sabes {\K415}{\K14}que {\K13}{\K24}no {\K14}{\K28}pasa {\K28}nada \N{\c&HFFFFFF}El amor tiende al fracaso 
+Dialogue: 0,00:00:44.96,00:00:47.53,Primer cantante,,0,0,0,,{\K29}El {\K31}amor {\K14}{\K39}tiende {\K18}al {\K16}{\K82}fracaso \N{\c&HFFFFFF}El sol al ocaso 
+Dialogue: 0,00:00:47.96,00:00:49.54,Primer cantante,,0,0,0,,{\K10}El {\K45}sol {\K27}al {\K75}ocaso \N{\c&HFFFFFF}Y los sueños a nada 
+Dialogue: 0,00:00:49.54,00:00:53.11,Primer cantante,,0,0,0,,{\K13}Y {\K49}{\K22}los {\K60}sueños {\K8}a {\K40}{\K161}nada \N{\c&HFFFFFF}Abremos los protocolos 
+Dialogue: 0,00:00:54.17,00:00:56.64,Primer cantante,,0,0,0,,{\K60}Abremos {\K32}{\K21}los {\K131}protocolos \N{\c&HFFFFFF}Será otra noche perdida 
+Dialogue: 0,00:00:57.92,00:01:00.40,Primer cantante,,0,0,0,,{\K9}Será {\K25}otra {\K14}{\K36}noche {\K25}{\K57}perdida \N{\c&HFFFFFF}Termino durmiendo solo 
+Dialogue: 0,00:01:02.81,00:01:05.15,Primer cantante,,0,0,0,,{\K69}Termino {\K13}{\K75}durmiendo {\K76}solo \N{\c&HFFFFFF}Más frío que el polo 
+Dialogue: 0,00:01:05.54,00:01:07.43,Primer cantante,,0,0,0,,{\K29}Más {\K3}{\K44}frío {\K13}que {\K17}el {\K81}polo \N{\c&HFFFFFF}Y otra noche perdida 
+Dialogue: 0,00:01:07.43,00:01:11.09,Primer cantante,,0,0,0,,{\K6}Y {\K9}{\K29}otra {\K15}{\K37}noche {\K21}{\K59}perdida \N{\c&HFFFFFF}Vamos viviendo la vida (ah-ah-ah) 
+Dialogue: 0,00:01:11.26,00:01:16.04,Primer cantante,,0,0,0,,{\K153}Vamos {\K150}{\K64}viviendo {\K19}{\K9}la {\K21}{\K28}vida {\K76}(ah-ah-ah) \N{\c&HFFFFFF}Bailemos hasta morir (ah-ah-ah) 
+Dialogue: 0,00:01:16.06,00:01:19.96,Primer cantante,,0,0,0,,{\K34}Bailemos {\K25}{\K32}hasta {\K46}{\K61}morir {\K176}{\K14}(ah-ah-ah) \N{\c&HFFFFFF}Dime por qué se te olvida (ah) 
+Dialogue: 0,00:01:20.06,00:01:22.76,Primer cantante,,0,0,0,,{\K30}Dime {\K24}{\K20}por {\K18}qué {\K26}se {\K15}{\K10}te {\K53}olvida {\K2}{\K30}(ah) \N{\c&HFFFFFF}Que es batalla perdida (ah) 
+Dialogue: 0,00:01:22.76,00:01:25.17,Primer cantante,,0,0,0,,{\K26}Que {\K43}{\K9}es {\K16}{\K64}batalla {\K75}{\K96}perdida {\K4}(ah) \N{\c&HFFFFFF}Morir por vivir 
+Dialogue: 0,00:01:25.18,00:01:28.98,Primer cantante,,0,0,0,,{\K215}Morir {\K60}{\K32}por {\K36}vivir \N{\c&HFFFFFF}Eh-eh-eh-i-eh 
+Dialogue: 0,00:01:28.98,00:01:32.58,Primer cantante,,0,0,0,,{\K102}Eh-eh-eh-i-eh \N{\c&HFFFFFF}Dime por qué se te olvida 
+Dialogue: 0,00:01:34.46,00:01:37.08,Primer cantante,,0,0,0,,{\K9}Dime {\K9}por {\K9}{\K150}qué {\K237}{\K28}se {\K103}{\K17}te {\K53}olvida \N{\c&HFFFFFF}Sigue apostando al futuro 
+Dialogue: 0,00:01:46.64,00:01:49.45,Primer cantante,,0,0,0,,{\K54}Sigue {\K7}{\K90}apostando {\K4}{\K21}al {\K3}{\K98}futuro \N{\c&HFFFFFF}Buscando al hombre perfecto 
+Dialogue: 0,00:01:50.95,00:01:53.58,Primer cantante,,0,0,0,,{\K68}Buscando {\K9}{\K32}al {\K4}{\K39}hombre {\K4}{\K48}perfecto \N{\c&HFFFFFF}La espera es peor que el cianuro 
+Dialogue: 0,00:01:55.43,00:01:58.12,Primer cantante,,0,0,0,,{\K32}La {\K203}{\K61}espera {\K12}es {\K4}{\K25}peor {\K3}{\K18}que {\K16}{\K102}el {\K25}{\K52}cianuro \N{\c&HFFFFFF}Lo de hoy es seguro 
+Dialogue: 0,00:01:58.12,00:02:00.59,Primer cantante,,0,0,0,,{\K84}Lo {\K43}{\K18}de {\K15}{\K7}hoy {\K7}es {\K35}seguro \N{\c&HFFFFFF}Mañana un proyecto 
+Dialogue: 0,00:02:00.59,00:02:04.09,Primer cantante,,0,0,0,,{\K21}Mañana {\K118}un {\K110}{\K37}proyecto \N{\c&HFFFFFF}Vamos viviendo la vida (ah-ah-ah) 
+Dialogue: 0,00:02:04.12,00:02:08.69,Primer cantante,,0,0,0,,{\K28}Vamos {\K59}viviendo {\K21}la {\K28}{\K34}vida {\K43}(ah-ah-ah) \N{\c&HFFFFFF}Bailemos hasta morir (ah-ah-ah) 
+Dialogue: 0,00:02:08.69,00:02:13.12,Primer cantante,,0,0,0,,{\K89}Bailemos {\K31}hasta {\K16}{\K73}morir {\K51}{\K12}(ah-ah-ah) \N{\c&HFFFFFF}Dime por qué se te olvida (ah) 
+Dialogue: 0,00:02:13.12,00:02:15.49,Primer cantante,,0,0,0,,{\K35}Dime {\K21}{\K18}por {\K19}qué {\K25}se {\K18}{\K8}te {\K40}olvida {\K10}{\K39}(ah) \N{\c&HFFFFFF}Es batalla perdida (ah) 
+Dialogue: 0,00:02:15.49,00:02:17.63,Primer cantante,,0,0,0,,{\K12}Es {\K81}batalla {\K85}{\K35}perdida {\K4}{\K3}(ah) \N{\c&HFFFFFF}Morir por vivir 
+Dialogue: 0,00:02:17.63,00:02:21.54,Primer cantante,,0,0,0,,{\K200}Morir {\K63}{\K31}por {\K10}{\K21}vivir \N{\c&HFFFFFF}Vamos viviendo la vida (ah-ah-ah) 
+Dialogue: 0,00:02:21.54,00:02:25.78,Primer cantante,,0,0,0,,{\K42}Vamos {\K68}viviendo {\K11}la {\K12}vida {\K9}(ah-ah-ah) \N{\c&HFFFFFF}Bailemos hasta morir (ah-ah-ah) 
+Dialogue: 0,00:02:25.78,00:02:30.00,Primer cantante,,0,0,0,,{\K48}Bailemos {\K37}{\K192}hasta {\K34}morir {\K26}{\K9}(ah-ah-ah) \N{\c&HFFFFFF}Dime por qué se te olvida (ah) 
+Dialogue: 0,00:02:30.00,00:02:32.81,Primer cantante,,0,0,0,,{\K28}Dime {\K23}por {\K79}qué {\K196}{\K24}se {\K106}{\K9}te {\K48}olvida {\K6}{\K23}(ah) \N{\c&HFFFFFF}Es batalla perdida (ah) 
+Dialogue: 0,00:02:32.81,00:02:35.46,Primer cantante,,0,0,0,,{\K16}Es {\K103}{\K36}batalla {\K43}perdida {\K8}(ah) \N{\c&HFFFFFF}Morir por vivir 
+Dialogue: 0,00:02:35.46,00:02:38.59,Primer cantante,,0,0,0,,{\K215}Morir {\K81}{\K16}por {\K38}vivir \N{\c&HFFFFFF}Eh-eh-eh-i-eh 
+Dialogue: 0,00:02:39.08,00:02:43.88,Primer cantante,,0,0,0,,{\K405}Eh-eh-eh-i-eh \N{\c&HFFFFFF}Dime por qué se te olvida 
+Dialogue: 0,00:02:45.43,00:02:48.07,Primer cantante,,0,0,0,,{\K29}Dime {\K17}{\K25}por {\K28}qué {\K25}se {\K34}{\K31}te {\K305}{\K71}olvida \N{\c&HFFFFFF}Hay tanto frío allá afuera 
+Dialogue: 0,00:02:56.86,00:02:58.87,Primer cantante,,0,0,0,,{\K25}Hay {\K50}tanto {\K5}{\K53}frío {\K14}{\K15}allá {\K34}afuera \N{\c&HFFFFFF}Hay tanto fuego en tu piel 
+Dialogue: 0,00:03:01.38,00:03:03.12,Primer cantante,,0,0,0,,{\K13}Hay {\K50}tanto {\K6}{\K40}fuego {\K15}en {\K18}tu {\K27}piel \N{\c&HFFFFFF}Yo soy puro y lo que quieras 
+Dialogue: 0,00:03:05.58,00:03:08.21,Primer cantante,,0,0,0,,{\K28}Yo {\K29}soy {\K14}{\K37}puro {\K7}y {\K26}lo {\K20}que {\K99}quieras \N{\c&HFFFFFF}Mañana quimeras y la vida un newterm 
+Dialogue: 0,00:03:08.44,00:03:11.86,Primer cantante,,0,0,0,,{\K68}Mañana {\K10}{\K91}quimeras {\K22}{\K7}y {\K12}{\K7}la {\K23}vida {\K50}un {\K46}newterm \N{\c&HFFFFFF}Vamos viviendo la vida (ah-ah-ah) 
+Dialogue: 0,00:03:14.28,00:03:18.74,Primer cantante,,0,0,0,,{\K62}Vamos {\K50}viviendo {\K30}la {\K30}{\K28}vida {\K3}{\K56}(ah-ah-ah) \N{\c&HFFFFFF}Bailemos hasta morir (ah-ah-ah) 
+Dialogue: 0,00:03:18.74,00:03:22.94,Primer cantante,,0,0,0,,{\K88}Bailemos {\K28}hasta {\K16}{\K65}morir {\K113}{\K14}(ah-ah-ah) \N{\c&HFFFFFF}Dime por qué se te olvida (ah) 
+Dialogue: 0,00:03:22.94,00:03:25.15,Primer cantante,,0,0,0,,{\K18}Dime {\K6}{\K21}por {\K18}qué {\K33}se {\K6}{\K12}te {\K52}olvida {\K1}{\K9}(ah) \N{\c&HFFFFFF}Que es batalla perdida (ah) 
+Dialogue: 0,00:03:25.15,00:03:27.99,Primer cantante,,0,0,0,,{\K31}Que {\K103}{\K14}es {\K134}batalla {\K45}perdida {\K4}{\K4}(ah) \N{\c&HFFFFFF}Morir por vivir 
+Dialogue: 0,00:03:27.99,00:03:31.56,Primer cantante,,0,0,0,,{\K215}Morir {\K46}{\K28}por {\K7}{\K52}vivir \N{\c&HFFFFFF}Yeh-eh-eh-i-eh 
+Dialogue: 0,00:03:31.56,00:03:35.65,Primer cantante,,0,0,0,,{\K343}Yeh-eh-eh-i-eh \N{\c&HFFFFFF}Morir por vivir 
+Dialogue: 0,00:03:40.75,00:03:46.58,Primer cantante,,0,0,0,,{\K76}Morir {\K1590}{\K93}por {\K25}{\K25}vivir 
+Dialogue: 0,00:03:46.58,00:12:46.58,Primer cantante,,0,0,0,,{\c&HD08521&}*Karamato*

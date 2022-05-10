@@ -110,9 +110,7 @@ class SongActivity : AppCompatActivity() {
                 } else {
                     player2?.pause()
                 }
-                if(player?.isPlaying != isPlaying) {
-                    togglePlayer(isPlaying)
-                }
+                togglePlayer(isPlaying)
             }
 
 

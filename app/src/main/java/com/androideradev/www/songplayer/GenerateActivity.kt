@@ -46,9 +46,9 @@ class GenerateActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityGenerateBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.edtTitle.setText("Hongos")
-        binding.edtSong.setText("Ricardo Arjona")
-        binding.edtStartTime.setText("33.10")
+//        binding.edtTitle.setText("Hongos")
+//        binding.edtSong.setText("Ricardo Arjona")
+//        binding.edtStartTime.setText("33.10")
 
         OkHttpClient.Builder()
             .connectTimeout(15, TimeUnit.MINUTES)
@@ -84,10 +84,10 @@ class GenerateActivity : AppCompatActivity() {
                         Toast.LENGTH_LONG
                     ).show()
                 }
-                tmpStart.toFloat() <= 10f -> {
-                    Toast.makeText(applicationContext, "Minimum is 10 seconds", Toast.LENGTH_LONG)
-                        .show()
-                }
+//                tmpStart.toFloat() <= 10f -> {
+//                    Toast.makeText(applicationContext, "Minimum is 10 seconds", Toast.LENGTH_LONG)
+//                        .show()
+//                }
                 else -> {
                     start_time = tmpStart.toFloat()
                     uploadFile()
@@ -221,27 +221,29 @@ class GenerateActivity : AppCompatActivity() {
             try {
                 var lyric = ""
                 try {
-                    val lyricsUrl = "https://timestamp-lyrics.p.rapidapi.com/extract-lyrics?name=${
-                        URLEncoder.encode(
-                            "$title-$song",
-                            "UTF-8"
-                        )
-                    }"
-                    val lyricsRequest = Request.Builder()
-                        .url(lyricsUrl)
-                        .get()
-                        .addHeader("X-RapidAPI-Host", "timestamp-lyrics.p.rapidapi.com")
-                        .addHeader(
-                            "X-RapidAPI-Key",
-                            "47c807821fmsh5454e9c8735adb5p159f17jsn91ed64e41132"
-                        )
-                        .build()
+                    if(selectedId.isEmpty()) {
+                        val lyricsUrl = "https://timestamp-lyrics.p.rapidapi.com/extract-lyrics?name=${
+                            URLEncoder.encode(
+                                "$title-$song",
+                                "UTF-8"
+                            )
+                        }"
+                        val lyricsRequest = Request.Builder()
+                            .url(lyricsUrl)
+                            .get()
+                            .addHeader("X-RapidAPI-Host", "timestamp-lyrics.p.rapidapi.com")
+                            .addHeader(
+                                "X-RapidAPI-Key",
+                                "47c807821fmsh5454e9c8735adb5p159f17jsn91ed64e41132"
+                            )
+                            .build()
 
-                    val lyricsResponse = client.newCall(lyricsRequest).execute()
-                    val lyricsJsonData = lyricsResponse.body()?.string()
-                    val lyricsObject = lyricsJsonData?.let { JSONObject(it) }
-                    val lyrics = lyricsObject!!.getJSONArray("lyrics")
-                    lyric = genLyrics(lyrics)
+                        val lyricsResponse = client.newCall(lyricsRequest).execute()
+                        val lyricsJsonData = lyricsResponse.body()?.string()
+                        val lyricsObject = lyricsJsonData?.let { JSONObject(it) }
+                        val lyrics = lyricsObject!!.getJSONArray("lyrics")
+                        lyric = genLyrics(lyrics)
+                    }
                 } catch (e: Exception) {
                     e.printStackTrace()
                     runOnUiThread {

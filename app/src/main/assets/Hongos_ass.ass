@@ -1,43 +1,54 @@
-﻿[Script Info]
+[Script Info]
 ; This is an Advanced Sub Station Alpha v4+ script.
-Title: php0krbCa
+Title: name
 ScriptType: v4.00+
 Collisions: Normal
 PlayDepth: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,20,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: Primer cantante,arial bold,32,&H00FF8300,&H03F7FEFF,&H00000000,&H02FFFFFF,-1,0,0,0,100,100,0,0,1,3.0,0.0,2,10,10,30,1
+Style: Segundo cantante,arial bold,32,&H0000169E,&H03F0F6FF,&H00000000,&H02FFFFFF,-1,0,0,0,100,100,0,0,1,3.0,0.0,2,10,10,30,1
+Style: Ambos,arial bold,32,&H00CB00FF,&H03F7FEFF,&H00000000,&H02FFFFFF,-1,0,0,0,100,100,0,0,1,3.0,0.0,2,10,10,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:16.30,0:00:19.30,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}1... 2... 3...{\b0}
-Dialogue: 0,0:00:19.30,0:00:26.70,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}¿Quién le dio los hongos\Nal dios que nos hizo?{\b0}
-Dialogue: 0,0:00:26.70,0:00:34.11,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}¿Quién me da respuestas\Npara este misterio?{\b0}
-Dialogue: 0,0:00:34.11,0:00:41.51,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}¿Quién puso elefantes\Nen mi cobertizo?{\b0}
-Dialogue: 0,0:00:41.51,0:00:49.11,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}¿Qué hacen tantos vivos\Nen el cementerio?{\b0}
-Dialogue: 0,0:00:49.11,0:00:56.40,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}¿Qué haces en mi vida dándome\Ninstrucciones?{\b0}
-Dialogue: 0,0:00:56.40,0:01:03.70,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Búscate un oficio‚\Nyo no tengo dueño{\b0}
-Dialogue: 0,0:01:03.70,0:01:11.21,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Ve a pintar graffitis\Ncon dos corazones{\b0}
-Dialogue: 0,0:01:11.21,0:01:14.91,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Búscate un idiota manso\Ny hogareño{\b0}
-Dialogue: 0,0:01:14.91,0:01:22.11,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Ganas de huir de aquí\NSé lo que hay que hacer{\b0}
-Dialogue: 0,0:01:22.11,0:01:29.70,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Para largarme de una\Nvez a otro planeta{\b0}
-Dialogue: 0,0:01:29.70,0:01:37.10,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Ganas de huir de aquí\NDe no volverte a ver{\b0}
-Dialogue: 0,0:01:37.10,0:01:57.31,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Meter mi vida y mi locura\Na esta maleta‚ ¡eh!{\b0}
-Dialogue: 0,0:01:57.31,0:02:05.01,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Tengo algo de inglés para\Npedirme un trago{\b0}
-Dialogue: 0,0:02:05.01,0:02:11.90,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Uso el castellano\Npa′ pagar la renta{\b0}
-Dialogue: 0,0:02:11.90,0:02:18.60,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Duelen los impuestos\Ncuando se los pago{\b0}
-Dialogue: 0,0:02:18.60,0:02:26.70,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Lo poco que soy ya está\Npuesto a la venta{\b0}
-Dialogue: 0,0:02:26.70,0:02:33.91,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Demasiado idiota dirigiendo\Nel mundo{\b0}
-Dialogue: 0,0:02:33.91,0:02:41.40,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Nada a que aferrarme‚\Ntodo lo perdí{\b0}
-Dialogue: 0,0:02:41.40,0:02:48.50,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}El oro y la mierda siempre\Nlos confundo{\b0}
-Dialogue: 0,0:02:48.50,0:02:56.51,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Sigue con tu vida‚ sé feliz por mí\NGanas de huir de aquí{\b0}
-Dialogue: 0,0:02:56.51,0:02:59.91,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Sé lo que hay\Nque hacer{\b0}
-Dialogue: 0,0:02:59.91,0:03:07.50,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Para largarme de una\Nvez a otro planeta{\b0}
-Dialogue: 0,0:03:07.50,0:03:14.70,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Ganas de huir de aquí\NDe no volverte a ver{\b0}
-Dialogue: 0,0:03:14.70,0:03:35.21,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Meter mi vida y mi locura\Na esta maleta{\b0}
-Dialogue: 0,0:03:35.21,0:03:42.61,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Ganas de huir de aquí\NSé lo que hay que hacer{\b0}
-Dialogue: 0,0:03:42.61,0:03:49.90,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Para largarme de una\Nvez a otro planeta{\b0}
-Dialogue: 0,0:03:49.90,0:03:57.11,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Ganas de huir de aquí\NDe no volverte a ver{\b0}
-Dialogue: 0,0:03:57.11,0:04:08.23,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}Meter mi vida y mi locura\Na esta maleta‚ ¡eh!{\b0}
-Dialogue: 0,0:04:08.23,0:04:13.63,Default,,0,0,0,,{\c&Hff8300&\fs32\fnarial\b1}*Karamato*{\b0}
+Dialogue: 0,00:00:16.66,00:00:19.66,Primer cantante,,0,0,0,,{\K180}1...2...3... \N{\c&HFFFFFF}¿Quién le dio los \Nhongos al dios que nos hizo?
+Dialogue: 0,00:00:19.66,00:00:26.92,Primer cantante,,0,0,0,,{\K14}¿Quién {\K17}le {\K29}dio {\K25}los {\K49}hongos {\K17}al {\K48}dios {\K10}que {\K9}{\K33}nos {\K96}hizo? \N{\c&HFFFFFF}¿Quién me da respuestas \Npara este misterio?
+Dialogue: 0,00:00:26.92,00:00:33.96,Primer cantante,,0,0,0,,{\K25}¿Quién {\K10}me {\K14}{\K21}da {\K64}respuestas {\K16}para {\K17}{\K19}este {\K15}{\K123}misterio? \N{\c&HFFFFFF}¿Quién puso elefantes \Nen mi cobertizo?
+Dialogue: 0,00:00:33.96,00:00:41.75,Primer cantante,,0,0,0,,{\K17}¿Quién {\K420}{\K27}puso {\K91}elefantes {\K21}en {\K16}mi {\K148}cobertizo? \N{\c&HFFFFFF}¿Qué hacen tantos \Nvivos en el cementerio?
+Dialogue: 0,00:00:41.75,00:00:48.96,Primer cantante,,0,0,0,,{\K9}¿Qué {\K31}hacen {\K51}tantos {\K50}vivos {\K25}en {\K10}el {\K147}cementerio? \N{\c&HFFFFFF}¿Qué haces en mi \Nvida, dándome instrucciones?
+Dialogue: 0,00:00:48.96,00:00:56.53,Primer cantante,,0,0,0,,{\K21}¿Qué {\K17}haces {\K4}{\K6}en {\K22}mi {\K24}vida, {\K53}dándome {\K207}instrucciones? \N{\c&HFFFFFF}Búscate un oficio, \Nyo no tengo dueño
+Dialogue: 0,00:00:56.53,00:01:03.44,Primer cantante,,0,0,0,,{\K38}Búscate {\K1}{\K26}un {\K64}oficio, {\K22}yo {\K21}no {\K88}tengo {\K39}{\K35}dueño \N{\c&HFFFFFF}Ve a pintar graffitis \Ncon dos corazones
+Dialogue: 0,00:01:03.44,00:01:10.93,Primer cantante,,0,0,0,,{\K6}Ve {\K393}{\K7}a {\K9}{\K35}pintar {\K81}graffitis {\K6}{\K15}con {\K21}dos {\K79}corazones \N{\c&HFFFFFF}Búscate un idiota, \Nmanso y hogareño
+Dialogue: 0,00:01:10.93,00:01:14.95,Primer cantante,,0,0,0,,{\K81}Búscate {\K440}{\K25}un {\K51}idiota, {\K9}{\K76}manso {\K29}{\K40}y {\K91}hogareño \N{\c&HFFFFFF}Ganas de huir de \Naquí
+Dialogue: 0,00:01:14.95,00:01:18.59,Primer cantante,,0,0,0,,{\K52}Ganas {\K28}{\K125}de {\K14}huir {\K18}de {\K3}{\K85}aquí \N{\c&HFFFFFF}Sé lo que hay que \Nhacer
+Dialogue: 0,00:01:18.59,00:01:21.67,Primer cantante,,0,0,0,,{\K31}Sé {\K18}lo {\K14}que {\K95}{\K29}hay {\K21}{\K15}que {\K18}hacer \N{\c&HFFFFFF}Para largarme de \Nuna vez a otro planeta
+Dialogue: 0,00:01:21.67,00:01:29.71,Primer cantante,,0,0,0,,{\K14}Para {\K97}{\K102}largarme {\K18}{\K25}de {\K28}{\K15}una {\K14}{\K81}vez {\K42}{\K3}a {\K34}otro {\K60}planeta \N{\c&HFFFFFF}Ganas de huir de \Naquí
+Dialogue: 0,00:01:29.71,00:01:32.98,Primer cantante,,0,0,0,,{\K48}Ganas {\K28}{\K132}de {\K14}huir {\K17}de {\K3}{\K82}aquí \N{\c&HFFFFFF}De no volverte a \Nver
+Dialogue: 0,00:01:32.98,00:01:36.95,Primer cantante,,0,0,0,,{\K12}De {\K18}no {\K178}volverte {\K35}{\K39}a {\K13}ver \N{\c&HFFFFFF}Meter mi vida y \Nmi locura
+Dialogue: 0,00:01:36.95,00:01:40.76,Primer cantante,,0,0,0,,{\K31}Meter {\K64}mi {\K25}vida {\K6}y {\K48}mi {\K6}{\K109}locura \N{\c&HFFFFFF}A esta maleta, ey
+Dialogue: 0,00:01:40.76,00:01:57.40,Primer cantante,,0,0,0,,{\K3}A {\K6}{\K31}esta {\K68}maleta, {\K210}{\K34}ey \N{\c&HFFFFFF}Tengo algo de inglés \Npara pedirme un trago
+Dialogue: 0,00:01:57.40,00:02:04.42,Primer cantante,,0,0,0,,{\K33}Tengo {\K34}algo {\K18}de {\K32}inglés {\K21}{\K14}para {\K52}pedirme {\K15}un {\K15}trago \N{\c&HFFFFFF}Uso el castellano \Npa' pagar la renta
+Dialogue: 0,00:02:04.42,00:02:12.12,Primer cantante,,0,0,0,,{\K22}Uso {\K141}el {\K371}{\K93}castellano {\K20}{\K32}pa' {\K31}pagar {\K25}la {\K96}renta \N{\c&HFFFFFF}Duelen los impuestos \Ncuando se los pago
+Dialogue: 0,00:02:12.12,00:02:18.93,Primer cantante,,0,0,0,,{\K42}Duelen {\K33}los {\K69}impuestos {\K35}cuando {\K3}{\K31}se {\K18}los {\K2}{\K48}pago \N{\c&HFFFFFF}Lo poco que soy, \Nya está puesto a la venta
+Dialogue: 0,00:02:18.93,00:02:26.46,Primer cantante,,0,0,0,,{\K78}Lo {\K401}{\K39}poco {\K12}que {\K8}{\K26}soy, {\K12}ya {\K27}está {\K56}puesto {\K3}a {\K16}la {\K73}venta \N{\c&HFFFFFF}Demasiado idiota \Ndirigiendo al mundo
+Dialogue: 0,00:02:26.46,00:02:33.92,Primer cantante,,0,0,0,,{\K62}Demasiado {\K43}idiota {\K40}{\K84}dirigiendo {\K6}al {\K18}mundo \N{\c&HFFFFFF}Nada a que aferrarme, \Ntodo lo perdí
+Dialogue: 0,00:02:33.92,00:02:41.75,Primer cantante,,0,0,0,,{\K96}Nada {\K4}a {\K389}{\K20}que {\K16}{\K50}aferrarme, {\K7}{\K40}todo {\K64}lo {\K151}perdí \N{\c&HFFFFFF}El oro y la mierda, \Nsiempre los confundo
+Dialogue: 0,00:02:41.75,00:02:48.99,Primer cantante,,0,0,0,,{\K21}El {\K30}oro {\K12}y {\K15}la {\K47}mierda, {\K3}{\K43}siempre {\K12}{\K32}los {\K12}{\K120}confundo \N{\c&HFFFFFF}Sigue con tu vida, \Nsé feliz por mí
+Dialogue: 0,00:02:48.99,00:02:52.74,Primer cantante,,0,0,0,,{\K59}Sigue {\K21}con {\K9}tu {\K21}vida, {\K28}{\K21}sé {\K3}{\K62}feliz {\K6}{\K28}por {\K3}{\K79}mí \N{\c&HFFFFFF}Ganas de huir de \Naquí
+Dialogue: 0,00:02:52.74,00:02:56.43,Primer cantante,,0,0,0,,{\K56}Ganas {\K15}de {\K17}huir {\K157}de {\K3}{\K82}aquí \N{\c&HFFFFFF}Sé lo que hay que \Nhacer
+Dialogue: 0,00:02:56.43,00:02:59.98,Primer cantante,,0,0,0,,{\K32}Sé {\K12}lo {\K3}{\K14}que {\K15}hay {\K93}{\K34}que {\K9}{\K54}hacer \N{\c&HFFFFFF}Para largarme de \Nuna vez a otro planeta
+Dialogue: 0,00:02:59.98,00:03:07.50,Primer cantante,,0,0,0,,{\K31}Para {\K90}{\K96}largarme {\K22}de {\K68}una {\K18}{\K75}vez {\K34}{\K3}a {\K6}{\K33}otro {\K5}{\K54}planeta \N{\c&HFFFFFF}Ganas de huir de \Naquí
+Dialogue: 0,00:03:07.50,00:03:11.28,Primer cantante,,0,0,0,,{\K53}Ganas {\K164}de {\K13}huir {\K15}de {\K6}{\K84}aquí \N{\c&HFFFFFF}De no volverte a \Nver
+Dialogue: 0,00:03:11.28,00:03:14.87,Primer cantante,,0,0,0,,{\K20}De {\K21}no {\K175}volverte {\K159}{\K11}a {\K15}{\K9}ver \N{\c&HFFFFFF}Meter mi vida y \Nmi locura
+Dialogue: 0,00:03:14.87,00:03:18.68,Primer cantante,,0,0,0,,{\K27}Meter {\K59}mi {\K22}vida {\K6}y {\K56}mi {\K36}{\K77}locura \N{\c&HFFFFFF}A esta maleta
+Dialogue: 0,00:03:18.68,00:03:35.22,Primer cantante,,0,0,0,,{\K3}A {\K17}esta {\K79}maleta \N{\c&HFFFFFF}Ganas de huir de \Naquí
+Dialogue: 0,00:03:35.22,00:03:38.84,Primer cantante,,0,0,0,,{\K51}Ganas {\K159}de {\K14}huir {\K14}de {\K3}{\K94}aquí \N{\c&HFFFFFF}Sé lo que hay que \Nhacer
+Dialogue: 0,00:03:38.84,00:03:41.97,Primer cantante,,0,0,0,,{\K36}Sé {\K12}lo {\K4}{\K33}que {\K94}{\K33}hay {\K3}{\K14}que {\K44}hacer \N{\c&HFFFFFF}Para largarme de \Nuna vez a otro planeta
+Dialogue: 0,00:03:41.97,00:03:50.03,Primer cantante,,0,0,0,,{\K13}Para {\K57}{\K68}largarme {\K9}de {\K31}{\K50}una {\K43}vez {\K53}{\K36}a {\K78}{\K31}otro {\K71}planeta \N{\c&HFFFFFF}Ganas de huir de \Naquí
+Dialogue: 0,00:03:50.03,00:03:53.78,Primer cantante,,0,0,0,,{\K44}Ganas {\K4}{\K9}de {\K9}huir {\K3}{\K169}de {\K7}{\K84}aquí \N{\c&HFFFFFF}De no volverte a \Nver
+Dialogue: 0,00:03:53.78,00:03:57.03,Primer cantante,,0,0,0,,{\K18}De {\K15}no {\K180}volverte {\K40}{\K59}a {\K84}{\K6}ver \N{\c&HFFFFFF}Meter mi vida y \Nmi locura
+Dialogue: 0,00:03:57.03,00:04:02.96,Primer cantante,,0,0,0,,{\K30}Meter {\K50}mi {\K12}vida {\K3}{\K23}y {\K56}mi {\K137}locura \N{\c&HFFFFFF}A esta maleta, ey
+Dialogue: 0,00:04:02.96,00:04:06.15,Primer cantante,,0,0,0,,{\K3}A {\K31}esta {\K68}maleta, {\K187}{\K27}ey 
+Dialogue: 0,00:04:06.15,00:13:06.14,Primer cantante,,0,0,0,,{\c&HD08521&}*Karamato*
