@@ -1,11 +1,14 @@
 package com.androideradev.www.songplayer
 
+import android.Manifest
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.core.app.ActivityCompat
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class MainActivity : AppCompatActivity() {
 
@@ -14,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.READ_EXTERNAL_STORAGE), 1)
         findViewById<ConstraintLayout>(R.id.constraint_layout)
             .setOnClickListener {
                 goSongActivity("Morir por Vivir")
@@ -22,9 +26,13 @@ class MainActivity : AppCompatActivity() {
             .setOnClickListener {
                 goSongActivity("Hongos")
             }
+        findViewById<FloatingActionButton>(R.id.fab_generate)
+            .setOnClickListener{
+                startActivity(Intent(this, GenerateActivity::class.java))
+            }
     }
     fun goSongActivity(param: String) {
-        var intent = Intent(this, SongActivity::class.java)
+        val intent = Intent(this, SongActivity::class.java)
         intent.putExtra("title", param)
         startActivity(intent)
     }

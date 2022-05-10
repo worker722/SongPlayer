@@ -3,4 +3,13 @@
     <string name="morir_por_vivir">Morir por Vivir</string>
     <string name="ricardo_arjona">Ricardo Arjona</string>
     <string name="hongos">Hongos</string>
+    <string name="generate_download"><![CDATA[Generate & Download]]></string>
+    <string name="choose_file">Choose file</string>
+    <string name="vocal">Vocal</string>
+    <string name="put_the_song">Put the Song</string>
+    <string name="song">Song</string>
+    <string name="put_the_title">Put the title</string>
+    <string name="title">Title</string>
+    <string name="put_the_start_time_of_vocal_seconds">Start time of vocal(min 10s)</string>
+    <string name="time">Time</string>
 </resources>

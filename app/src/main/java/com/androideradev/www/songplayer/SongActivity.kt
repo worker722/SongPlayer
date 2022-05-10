@@ -45,6 +45,8 @@ class SongActivity : AppCompatActivity() {
         binding.txtCaption.setBackgroundColor(Color.TRANSPARENT)
         binding.txtCaption.settings.javaScriptEnabled = true
         window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+
+
         binding.imageMic.setOnClickListener {
             isMute = !isMute
             updateMicResource()
