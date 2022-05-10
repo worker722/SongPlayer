@@ -260,11 +260,11 @@ class SubtitleUtils(assFileContents: List<String>) {
                     "        from { width: $startWidth% }\n" +
                     "        to { width: 100% }\n" +
                     "    }"
-            customStyle += "word_$index::after {width: $startWidth%}\n"
+            customStyle += ".word_$index::after {width: $startWidth%}\n"
 
         }
         return "$customKeyframe\n" +
-                ".word_$index::after { animation: $animation ${duration}ms 1 linear ${delay}ms forwards; }\n" +
+                ".word_$index::after { animation: $animation ${if(duration <= 0) 999999 else duration}ms 1 linear ${delay}ms forwards; }\n" +
                 "$customStyle\n"
     }
 
