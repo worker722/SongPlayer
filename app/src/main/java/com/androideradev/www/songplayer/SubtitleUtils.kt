@@ -112,7 +112,7 @@ class SubtitleUtils(assFileContents: List<String>) {
                 item.startPosition = convertMSeconds(it[1])
                 item.endPosition = convertMSeconds(it[2])
 
-                var caption = it[9]
+                var caption = it.subList(9, it.size).joinToString(separator = ",")
                 caption = caption.replace("{\\K\\2c}", "")
 
                 val mRegex = "\\{.*?\\}".toRegex()
@@ -195,7 +195,8 @@ class SubtitleUtils(assFileContents: List<String>) {
         if (item.captions.isEmpty()) return ""
 
         var style = ""
-        var content = ""
+        var content = "<div style=\"height: 42px; position: relative;\">\n" +
+                        "<div style=\"position: absolute;bottom: 3px;left: 0;right: 0;\">\n"
         val script = ""
         val meta = ""
 
@@ -205,7 +206,7 @@ class SubtitleUtils(assFileContents: List<String>) {
         var totalDelay = 0f
         var animationDelay = 0f
         item.captions.forEachIndexed { index, captionItem ->
-            val text = captionItem.caption
+            var text = captionItem.caption
             var startWidth = 0
             var color: String? = null
 
@@ -233,10 +234,18 @@ class SubtitleUtils(assFileContents: List<String>) {
             totalDelay += captionItem.duration
             animationDelay += duration
 
-            content += genText(index, text, color)
+            if(text.contains("<br")) {
+                text = text.replace("<br/>", "")
+                text = text.replace("<br>", "")
+                content += genText(index, text, color)
+                content += "</div>\n</div>\n" + "<div style=\"height: 42px;\">\n<div>\n"
+            } else {
+                content += genText(index, text, color)
+            }
         }
         val status = if (isPlaying) "running" else "paused"
         style += ".word::after {animation-play-state: $status;};\n"
+        content += "</div></div>\n"
 
         return genHtml(meta, style, content, script)
     }
@@ -289,19 +298,19 @@ class SubtitleUtils(assFileContents: List<String>) {
                 "    font-style: normal;\n" +
                 "    font-weight: normal;\n" +
                 "    src: local('Arial Black'), url('file:///android_asset/ARIBLK.woff') format('woff');\n" +
-                "}" +
+                "}\n" +
                 "@font-face {\n" +
                 "    font-family: 'Arial Bold';\n" +
                 "    font-style: normal;\n" +
                 "    font-weight: normal;\n" +
                 "    src: local('Arial Bold'), url('file:///android_asset/ARIALBD.woff') format('woff');\n" +
-                "}" +
+                "}\n" +
                 "@font-face {\n" +
                 "    font-family: 'Arial';\n" +
                 "    font-style: normal;\n" +
                 "    font-weight: normal;\n" +
                 "    src: local('Arial Regular'), url('file:///android_asset/ARIAL.woff') format('woff');\n" +
-                "}"
+                "}\n"
     }
 
     private fun genHtml(
@@ -353,7 +362,7 @@ class SubtitleUtils(assFileContents: List<String>) {
                 "<script type=\"text/javascript\">\n" +
                 "$js\n" +
                 "</script>\n" +
-                "</html>"
+                "</html>\n"
     }
 
 }

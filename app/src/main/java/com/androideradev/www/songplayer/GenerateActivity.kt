@@ -2,11 +2,12 @@ package com.androideradev.www.songplayer
 
 import android.app.ProgressDialog
 import android.content.Intent
-import android.database.Cursor
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.os.Environment
+import android.provider.DocumentsContract
+import android.provider.MediaStore
 import android.provider.OpenableColumns
 import android.view.View
 import android.widget.AdapterView
@@ -203,6 +204,7 @@ class GenerateActivity : AppCompatActivity() {
             }
         } catch (e: Exception) {
             dialog.hide()
+            Toast.makeText(applicationContext, e.message, Toast.LENGTH_LONG).show()
             e.printStackTrace()
         }
     }
@@ -211,7 +213,7 @@ class GenerateActivity : AppCompatActivity() {
         var lyric = ""
         for (i in 0 until lyrics.length()) {
             val item: JSONObject = lyrics.getJSONObject(i)
-            lyric += "$item\n"
+            lyric += "${item.getString("words")}\n"
         }
         return lyric
     }
@@ -254,6 +256,7 @@ class GenerateActivity : AppCompatActivity() {
                 println("$selectedId | $start_time")
                 val formBody = FormBody.Builder()
                     .add("name", title)
+                    .add("song", song)
                     .add("lyrics", lyric)
                     .add("file_url", url)
                     .add("start_time", start_time.toString())
@@ -309,19 +312,27 @@ class GenerateActivity : AppCompatActivity() {
         super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == REQ_CODE_PICK_SOUNDFILE && resultCode == RESULT_OK) {
             if (data != null && data.data != null) {
-                filePath = data.data!!.path!!
-
-                if (filePath.contains("/document/raw:")) {
-                    filePath = filePath.replace("/document/raw:", "")
+                val wholeID = DocumentsContract.getDocumentId(data.data!!)
+                val id = wholeID.split(":").toTypedArray()[1]
+                val column = arrayOf(MediaStore.Audio.Media.DATA)
+                val sel = MediaStore.Audio.Media._ID + "=?"
+                val cursor = contentResolver.query(MediaStore.Audio.Media.EXTERNAL_CONTENT_URI, column, sel, arrayOf(id), null)
+                val columnIndex = cursor!!.getColumnIndex(column[0])
+                if (cursor.moveToFirst()) {
+                    filePath = cursor.getString(columnIndex)
                 }
-
-                val cursor: Cursor? = contentResolver.query(data.data!!, null, null, null, null)
-                val nameIndex = cursor!!.getColumnIndex(OpenableColumns.DISPLAY_NAME)
-                cursor.moveToFirst()
-                val name = cursor.getString(nameIndex)
                 cursor.close()
-                fileName = name ?: "song.wav"
+
+                val nameCursor = contentResolver.query(data.data!!, null, null, null, null)
+                val nameIndex = nameCursor!!.getColumnIndex(OpenableColumns.DISPLAY_NAME)
+                if(nameCursor.moveToFirst()) {
+                    val name = nameCursor.getString(nameIndex)
+                    fileName = name
+                }
+                fileName = fileName.ifEmpty { "song.wav" }
+
                 binding.btnChooseFile.text = fileName
+                nameCursor.close()
                 return
             }
         }
