@@ -1,0 +1,58 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayDepth: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Primer cantante,arial bold,32,&H00FF8300,&H03F7FEFF,&H00000000,&H02FFFFFF,-1,0,0,0,100,100,0,0,1,3.0,0.0,2,10,10,30,1
+Style: Segundo cantante,arial bold,32,&H0000169E,&H03F0F6FF,&H00000000,&H02FFFFFF,-1,0,0,0,100,100,0,0,1,3.0,0.0,2,10,10,30,1
+Style: Ambos,arial bold,32,&H00CB00FF,&H03F7FEFF,&H00000000,&H02FFFFFF,-1,0,0,0,100,100,0,0,1,3.0,0.0,2,10,10,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,00:00:12.96,00:00:15.96,Primer cantante,,0,0,0,,{\K180}1...2...3... \N{\c&HFFFFFF}Recuerdo {\c&HFFFFFF}que {\c&HFFFFFF}contigo {\c&HFFFFFF}fue {\c&HFFFFFF}tan {\c&HFFFFFF}diferente
+Dialogue: 0,00:00:15.96,00:00:18.46,Primer cantante,,0,0,0,,{\c&HFFFFFF}Tan {\c&HFFFFFF}natural {\c&HFFFFFF}(tan {\c&HFFFFFF}natural) \N{\K50}Recuerdo {\K14}que {\K51}contigo {\K11}fue {\K28}tan {\K44}diferente
+Dialogue: 0,00:00:18.46,00:00:21.14,Primer cantante,,0,0,0,,{\K17}Tan {\K35}natural {\K23}(tan {\K192}{\K35}natural) \N{\c&HFFFFFF}Jugando, {\c&HFFFFFF}me {\c&HFFFFFF}decías {\c&HFFFFFF}que {\c&HFFFFFF}leías {\c&HFFFFFF}mi {\c&HFFFFFF}mente
+Dialogue: 0,00:00:21.14,00:00:24.01,Primer cantante,,0,0,0,,{\c&HFFFFFF}Y {\c&HFFFFFF}era {\c&HFFFFFF}verdad \N{\K28}Jugando, {\K5}me {\K19}{\K42}decías {\K16}que {\K37}leías {\K12}mi {\K62}mente
+Dialogue: 0,00:00:24.01,00:00:26.97,Primer cantante,,0,0,0,,{\K7}Y {\K5}{\K47}era {\K56}verdad \N{\c&HFFFFFF}Aún {\c&HFFFFFF}guardo {\c&HFFFFFF}cada {\c&HFFFFFF}carta {\c&HFFFFFF}que {\c&HFFFFFF}me {\c&HFFFFFF}diste
+Dialogue: 0,00:00:26.97,00:00:29.51,Primer cantante,,0,0,0,,{\c&HFFFFFF}Y {\c&HFFFFFF}aunque {\c&HFFFFFF}hay {\c&HFFFFFF}palabras {\c&HFFFFFF}que {\c&HFFFFFF}nunca {\c&HFFFFFF}dijiste \N{\K9}Aún {\K151}{\K38}guardo {\K25}cada {\K23}{\K33}carta {\K159}{\K12}que {\K7}me {\K23}diste
+Dialogue: 0,00:00:29.51,00:00:32.45,Primer cantante,,0,0,0,,{\K7}Y {\K8}aunque {\K6}hay {\K25}palabras {\K8}que {\K8}{\K28}nunca {\K5}{\K60}dijiste \N{\c&HFFFFFF}El {\c&HFFFFFF}tiempo {\c&HFFFFFF}que {\c&HFFFFFF}tuvimos {\c&HFFFFFF}no {\c&HFFFFFF}fue {\c&HFFFFFF}suficiente {\c&HFFFFFF}para {\c&HFFFFFF}olvidar, {\c&HFFFFFF}no
+Dialogue: 0,00:00:32.45,00:00:37.94,Primer cantante,,0,0,0,,{\c&HFFFFFF}Aunque {\c&HFFFFFF}yo {\c&HFFFFFF}sé {\c&HFFFFFF}que {\c&HFFFFFF}es {\c&HFFFFFF}tarde {\c&HFFFFFF}para {\c&HFFFFFF}recordar \N{\K35}El {\K60}{\K28}tiempo {\K14}{\K9}que {\K47}tuvimos {\K18}no {\K32}{\K10}fue {\K73}suficiente {\K25}{\K24}para {\K99}olvidar, {\K3}{\K17}no
+Dialogue: 0,00:00:37.94,00:00:41.88,Primer cantante,,0,0,0,,{\K14}Aunque {\K25}yo {\K6}{\K14}sé {\K17}que {\K7}{\K17}es {\K12}tarde {\K42}para {\K95}recordar \N{\c&HFFFFFF}Una {\c&HFFFFFF}noche {\c&HFFFFFF}rota
+Dialogue: 0,00:00:41.88,00:00:44.96,Primer cantante,,0,0,0,,{\c&HFFFFFF}Fue {\c&HFFFFFF}la {\c&HFFFFFF}última {\c&HFFFFFF}vez {\c&HFFFFFF}que {\c&HFFFFFF}te {\c&HFFFFFF}perdí \N{\K39}Una {\K9}{\K19}noche {\K25}rota
+Dialogue: 0,00:00:44.96,00:00:47.84,Primer cantante,,0,0,0,,{\K9}Fue {\K61}{\K52}la {\K77}{\K68}última {\K100}{\K50}vez {\K12}que {\K10}te {\K26}perdí \N{\c&HFFFFFF}Una {\c&HFFFFFF}vida {\c&HFFFFFF}loca
+Dialogue: 0,00:00:47.84,00:00:49.96,Primer cantante,,0,0,0,,{\c&HFFFFFF}Cuando {\c&HFFFFFF}sin {\c&HFFFFFF}querеr {\c&HFFFFFF}me {\c&HFFFFFF}despedí \N{\K65}Una {\K61}{\K56}vida {\K14}loca
+Dialogue: 0,00:00:49.96,00:00:53.03,Primer cantante,,0,0,0,,{\K42}Cuando {\K39}sin {\K113}querеr {\K28}{\K30}me {\K30}despedí \N{\c&HFFFFFF}Y {\c&HFFFFFF}hoy {\c&HFFFFFF}quе {\c&HFFFFFF}tú {\c&HFFFFFF}ya {\c&HFFFFFF}no {\c&HFFFFFF}estás, {\c&HFFFFFF}tú {\c&HFFFFFF}ya {\c&HFFFFFF}no {\c&HFFFFFF}estás
+Dialogue: 0,00:00:53.03,00:00:56.49,Primer cantante,,0,0,0,,{\c&HFFFFFF}Tú {\c&HFFFFFF}ya {\c&HFFFFFF}no {\c&HFFFFFF}estás {\c&HFFFFFF}aquí \N{\K21}Y {\K9}{\K14}hoy {\K7}quе {\K18}tú {\K5}{\K15}ya {\K37}{\K17}no {\K50}estás, {\K10}tú {\K22}ya {\K37}{\K13}no {\K73}estás
+Dialogue: 0,00:00:56.49,00:00:58.79,Primer cantante,,0,0,0,,{\K22}Tú {\K12}{\K5}ya {\K14}{\K17}no {\K50}estás {\K7}{\K60}aquí \N{\c&HFFFFFF}Sé {\c&HFFFFFF}quedó {\c&HFFFFFF}en {\c&HFFFFFF}mi {\c&HFFFFFF}boca
+Dialogue: 0,00:00:58.79,00:01:02.56,Primer cantante,,0,0,0,,{\c&HFFFFFF}Una {\c&HFFFFFF}historia, {\c&HFFFFFF}una {\c&HFFFFFF}canción {\c&HFFFFFF}y {\c&HFFFFFF}un {\c&HFFFFFF}beso {\c&HFFFFFF}en {\c&HFFFFFF}Madrid \N{\K32}Sé {\K39}quedó {\K8}{\K8}en {\K25}mi {\K73}boca
+Dialogue: 0,00:01:02.56,00:01:11.42,Primer cantante,,0,0,0,,{\K9}Una {\K44}historia, {\K39}una {\K42}canción {\K6}y {\K10}{\K65}un {\K45}beso {\K25}en {\K42}{\K35}Madrid \N{\c&HFFFFFF}Parecen {\c&HFFFFFF}solo {\c&HFFFFFF}días {\c&HFFFFFF}y {\c&HFFFFFF}va {\c&HFFFFFF}casi
+Dialogue: 0,00:01:11.42,00:01:13.59,Primer cantante,,0,0,0,,{\c&HFFFFFF}Un {\c&HFFFFFF}año {\c&HFFFFFF}que {\c&HFFFFFF}te {\c&HFFFFFF}lloré \N{\K46}Parecen {\K42}solo {\K36}días {\K16}{\K7}y {\K6}va {\K29}casi
+Dialogue: 0,00:01:13.59,00:01:17.02,Primer cantante,,0,0,0,,{\K25}Un {\K66}año {\K14}{\K41}que {\K62}te {\K12}lloré \N{\c&HFFFFFF}Yo {\c&HFFFFFF}sé {\c&HFFFFFF}que {\c&HFFFFFF}estamos {\c&HFFFFFF}bien
+Dialogue: 0,00:01:17.02,00:01:18.39,Primer cantante,,0,0,0,,{\c&HFFFFFF}Pero {\c&HFFFFFF}a {\c&HFFFFFF}veces {\c&HFFFFFF}te {\c&HFFFFFF}extraño \N{\K9}Yo {\K143}{\K25}sé {\K20}que {\K40}estamos {\K18}bien
+Dialogue: 0,00:01:18.39,00:01:20.00,Primer cantante,,0,0,0,,{\K9}Pero {\K7}{\K3}a {\K45}veces {\K25}te {\K70}extraño \N{\c&HFFFFFF}Yo {\c&HFFFFFF}te {\c&HFFFFFF}adoré
+Dialogue: 0,00:01:20.00,00:01:21.00,Primer cantante,,0,0,0,,{\c&HFFFFFF}Yo {\c&HFFFFFF}te {\c&HFFFFFF}adoré {\c&HFFFFFF}con {\c&HFFFFFF}locura \N{\K6}Yo {\K21}te {\K15}{\K43}adoré
+Dialogue: 0,00:01:21.00,00:01:22.76,Primer cantante,,0,0,0,,{\K6}Yo {\K16}te {\K25}{\K41}adoré {\K10}con {\K46}locura \N{\c&HFFFFFF}Y {\c&HFFFFFF}aunque {\c&HFFFFFF}el {\c&HFFFFFF}tiempo {\c&HFFFFFF}todo {\c&HFFFFFF}lo {\c&HFFFFFF}cura
+Dialogue: 0,00:01:22.76,00:01:24.93,Primer cantante,,0,0,0,,{\c&HFFFFFF}Hay {\c&HFFFFFF}amores {\c&HFFFFFF}que {\c&HFFFFFF}se {\c&HFFFFFF}olvidan \N{\K12}Y {\K23}{\K18}aunque {\K6}el {\K38}tiempo {\K72}todo {\K16}lo {\K20}cura
+Dialogue: 0,00:01:24.93,00:01:26.62,Primer cantante,,0,0,0,,{\K18}Hay {\K6}{\K37}amores {\K10}que {\K17}se {\K48}olvidan \N{\c&HFFFFFF}Hay {\c&HFFFFFF}que {\c&HFFFFFF}amores {\c&HFFFFFF}que {\c&HFFFFFF}siempre {\c&HFFFFFF}duran
+Dialogue: 0,00:01:26.62,00:01:28.53,Primer cantante,,0,0,0,,{\c&HFFFFFF}Esto {\c&HFFFFFF}no {\c&HFFFFFF}fue {\c&HFFFFFF}una {\c&HFFFFFF}aventura \N{\K14}Hay {\K10}que {\K39}amores {\K11}que {\K32}siempre {\K25}{\K57}duran
+Dialogue: 0,00:01:28.53,00:01:30.34,Primer cantante,,0,0,0,,{\K28}Esto {\K24}no {\K18}fue {\K4}{\K15}una {\K68}aventura \N{\c&HFFFFFF}Pero {\c&HFFFFFF}tuvo {\c&HFFFFFF}que {\c&HFFFFFF}terminar
+Dialogue: 0,00:01:30.34,00:01:34.10,Primer cantante,,0,0,0,,{\c&HFFFFFF}Aunque {\c&HFFFFFF}yo {\c&HFFFFFF}sé {\c&HFFFFFF}que {\c&HFFFFFF}es {\c&HFFFFFF}tarde {\c&HFFFFFF}para {\c&HFFFFFF}recordar \N{\K9}Pero {\K26}{\K36}tuvo {\K26}que {\K7}{\K82}terminar
+Dialogue: 0,00:01:34.10,00:01:37.45,Primer cantante,,0,0,0,,{\K20}Aunque {\K20}yo {\K3}{\K19}sé {\K12}que {\K9}es {\K20}tarde {\K11}{\K31}para {\K14}{\K43}recordar \N{\c&HFFFFFF}Una {\c&HFFFFFF}noche {\c&HFFFFFF}rota
+Dialogue: 0,00:01:37.45,00:01:40.95,Primer cantante,,0,0,0,,{\c&HFFFFFF}Fue {\c&HFFFFFF}la {\c&HFFFFFF}última {\c&HFFFFFF}vez {\c&HFFFFFF}que {\c&HFFFFFF}te {\c&HFFFFFF}perdí \N{\K34}Una {\K12}{\K15}noche {\K27}rota
+Dialogue: 0,00:01:40.95,00:01:43.51,Primer cantante,,0,0,0,,{\K8}Fue {\K74}la {\K43}{\K39}última {\K9}vez {\K18}que {\K142}{\K34}te {\K12}{\K32}perdí \N{\c&HFFFFFF}Una {\c&HFFFFFF}vida {\c&HFFFFFF}loca
+Dialogue: 0,00:01:43.51,00:01:45.94,Primer cantante,,0,0,0,,{\c&HFFFFFF}Cuando {\c&HFFFFFF}sin {\c&HFFFFFF}querer {\c&HFFFFFF}me {\c&HFFFFFF}despedí \N{\K53}Una {\K59}{\K56}vida {\K21}loca
+Dialogue: 0,00:01:45.94,00:01:48.98,Primer cantante,,0,0,0,,{\K45}Cuando {\K35}sin {\K52}querer {\K14}{\K7}me {\K22}{\K108}despedí \N{\c&HFFFFFF}Y {\c&HFFFFFF}hoy {\c&HFFFFFF}que {\c&HFFFFFF}tú {\c&HFFFFFF}ya {\c&HFFFFFF}no {\c&HFFFFFF}estás, {\c&HFFFFFF}tú {\c&HFFFFFF}ya {\c&HFFFFFF}no {\c&HFFFFFF}estás
+Dialogue: 0,00:01:48.98,00:01:52.56,Primer cantante,,0,0,0,,{\c&HFFFFFF}Tú {\c&HFFFFFF}ya {\c&HFFFFFF}no {\c&HFFFFFF}estás {\c&HFFFFFF}aquí \N{\K21}Y {\K6}{\K17}hoy {\K15}que {\K9}tú {\K4}{\K15}ya {\K37}{\K14}no {\K10}{\K43}estás, {\K10}tú {\K20}ya {\K40}{\K12}no {\K4}{\K55}estás
+Dialogue: 0,00:01:52.56,00:01:54.64,Primer cantante,,0,0,0,,{\K6}Tú {\K23}ya {\K39}{\K14}no {\K60}estás {\K64}aquí \N{\c&HFFFFFF}Sé {\c&HFFFFFF}quedó {\c&HFFFFFF}en {\c&HFFFFFF}mi {\c&HFFFFFF}boca
+Dialogue: 0,00:01:54.64,00:01:57.96,Primer cantante,,0,0,0,,{\c&HFFFFFF}Una {\c&HFFFFFF}historia, {\c&HFFFFFF}una {\c&HFFFFFF}canción {\c&HFFFFFF}y {\c&HFFFFFF}un {\c&HFFFFFF}beso {\c&HFFFFFF}en {\c&HFFFFFF}Madrid {\c&HFFFFFF}(no) \N{\K28}Sé {\K37}quedó {\K7}{\K10}en {\K4}{\K25}mi {\K70}boca
+Dialogue: 0,00:01:57.96,00:02:03.96,Primer cantante,,0,0,0,,{\K11}Una {\K93}historia, {\K14}una {\K17}{\K66}canción {\K6}y {\K4}{\K41}un {\K30}beso {\K6}en {\K46}Madrid {\K6}(no) \N{\c&HFFFFFF}Sé {\c&HFFFFFF}que {\c&HFFFFFF}hubo {\c&HFFFFFF}un {\c&HFFFFFF}beso {\c&HFFFFFF}en {\c&HFFFFFF}Madrid
+Dialogue: 0,00:02:03.96,00:02:05.95,Primer cantante,,0,0,0,,{\c&HFFFFFF}Un {\c&HFFFFFF}beso {\c&HFFFFFF}en {\c&HFFFFFF}Madrid {\c&HFFFFFF}(hubo) \N{\K196}Sé {\K10}que {\K35}hubo {\K85}{\K21}un {\K40}beso {\K6}en {\K39}Madrid
+Dialogue: 0,00:02:05.95,00:02:09.45,Primer cantante,,0,0,0,,{\K29}Un {\K37}beso {\K12}{\K37}en {\K103}Madrid {\K8}{\K94}(hubo) \N{\c&HFFFFFF}Una {\c&HFFFFFF}historia, {\c&HFFFFFF}una {\c&HFFFFFF}canción {\c&HFFFFFF}y {\c&HFFFFFF}un {\c&HFFFFFF}beso {\c&HFFFFFF}en {\c&HFFFFFF}Madrid, {\c&HFFFFFF}no
+Dialogue: 0,00:02:09.45,00:02:15.06,Primer cantante,,0,0,0,,{\c&HFFFFFF}Un {\c&HFFFFFF}beso {\c&HFFFFFF}en {\c&HFFFFFF}Madrid {\c&HFFFFFF}(hoy {\c&HFFFFFF}quedan {\c&HFFFFFF}en {\c&HFFFFFF}mí) \N{\K112}Una {\K9}{\K53}historia, {\K264}una {\K9}{\K26}canción {\K14}y {\K71}{\K18}un {\K50}beso {\K20}en {\K5}{\K46}Madrid, {\K9}no
+Dialogue: 0,00:02:15.06,00:02:20.50,Primer cantante,,0,0,0,,{\K21}Un {\K4}{\K12}beso {\K39}en {\K25}Madrid {\K17}(hoy {\K126}quedan {\K118}{\K9}en {\K10}mí) \N{\c&HFFFFFF}Una {\c&HFFFFFF}historia, {\c&HFFFFFF}una {\c&HFFFFFF}canción {\c&HFFFFFF}y {\c&HFFFFFF}un {\c&HFFFFFF}beso {\c&HFFFFFF}en {\c&HFFFFFF}Madrid
+Dialogue: 0,00:02:20.50,00:02:27.07,Primer cantante,,0,0,0,,{\K43}Una {\K32}{\K63}historia, {\K46}una {\K89}{\K45}canción {\K71}{\K6}y {\K21}{\K150}un {\K2064}{\K11}beso {\K40}{\K6}en {\K303}{\K18}Madrid
+Dialogue: 0,00:02:27.07,00:11:27.07,Primer cantante,,0,0,0,,{\c&H00FF8300&}*Karamato*

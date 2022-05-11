@@ -45,7 +45,10 @@ class SongActivity : AppCompatActivity() {
         binding.txtCaption.setBackgroundColor(Color.TRANSPARENT)
         binding.txtCaption.settings.javaScriptEnabled = true
         window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
-
+        if(SONG_TITLE == "Tini") {
+            binding.textView.text = getString(R.string.un_beso_en_madrid)
+            binding.imageView.setImageResource(R.drawable.un_beso_en_madrid)
+        }
 
         binding.imageMic.setOnClickListener {
             isMute = !isMute

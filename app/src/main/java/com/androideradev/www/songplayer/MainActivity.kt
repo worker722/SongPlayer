@@ -26,6 +26,10 @@ class MainActivity : AppCompatActivity() {
             .setOnClickListener {
                 goSongActivity("Hongos")
             }
+        findViewById<ConstraintLayout>(R.id.constraint_layout2)
+            .setOnClickListener {
+                goSongActivity("Tini")
+            }
         findViewById<FloatingActionButton>(R.id.fab_generate)
             .setOnClickListener{
                 startActivity(Intent(this, GenerateActivity::class.java))

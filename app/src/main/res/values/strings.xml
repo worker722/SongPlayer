@@ -12,4 +12,6 @@
     <string name="title">Title</string>
     <string name="put_the_start_time_of_vocal_seconds">Start time of vocal(min 10s)</string>
     <string name="time">Time</string>
+    <string name="tini">Tini</string>
+    <string name="un_beso_en_madrid">Un Beso en Madrid</string>
 </resources>
