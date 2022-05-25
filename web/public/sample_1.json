@@ -1,0 +1,763 @@
+[
+    {
+        "start": "0:00:33.10",
+        "end": "0:00:36.10",
+        "text": [
+            {
+                "tag": {
+                    "kf": 184
+                },
+                "text": "1...2...3...\\N",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "c1": "FFFFFF"
+                },
+                "text": "Sabes que estamos de paso",
+                "drawing": null
+            }
+        ]
+    },
+    {
+        "start": "0:00:36.10",
+        "end": "0:00:45.11",
+        "text": [
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Sabes que ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "estamos de ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "paso\\N",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Sabes ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 42
+                },
+                "text": "que no ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "pasa nada",
+                "drawing": null
+            }
+        ]
+    },
+    {
+        "start": "0:00:45.11",
+        "end": "0:00:49.50",
+        "text": [
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "El amor tiende ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "al fracaso\\N",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "El sol ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "al ocaso",
+                "drawing": null
+            }
+        ]
+    },
+    {
+        "start": "0:00:49.50",
+        "end": "0:00:58.31",
+        "text": [
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Y los sueños ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "a nada\\N",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Habremos los ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "protocolos",
+                "drawing": null
+            }
+        ]
+    },
+    {
+        "start": "0:00:58.31",
+        "end": "0:01:05.20",
+        "text": [
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Será otra ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "noche perdida\\N",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Termino durmiendo ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "solo",
+                "drawing": null
+            }
+        ]
+    },
+    {
+        "start": "0:01:05.20",
+        "end": "0:01:11.71",
+        "text": [
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Más frío ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "que el polo\\N",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 42
+                },
+                "text": "Y otra ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "noche perdida",
+                "drawing": null
+            }
+        ]
+    },
+    {
+        "start": "0:01:11.71",
+        "end": "0:01:20.50",
+        "text": [
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Vamos ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "viviendo la vida\\N",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Bailemos ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "hasta morir",
+                "drawing": null
+            }
+        ]
+    },
+    {
+        "start": "0:01:20.50",
+        "end": "0:01:25.21",
+        "text": [
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Dime por ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "qué se te olvida\\N",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Que es ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "batalla perdida",
+                "drawing": null
+            }
+        ]
+    },
+    {
+        "start": "0:01:25.21",
+        "end": "0:01:46.81",
+        "text": [
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Morir por ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "vivir\\N",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Dime por qué ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "se te olvida",
+                "drawing": null
+            }
+        ]
+    },
+    {
+        "start": "0:01:46.81",
+        "end": "0:01:55.51",
+        "text": [
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Sigue apostando ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "al futuro\\N",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Buscando al ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "hombre perfecto",
+                "drawing": null
+            }
+        ]
+    },
+    {
+        "start": "0:01:55.51",
+        "end": "0:02:00.31",
+        "text": [
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "La espera es ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "peor que el cianuro\\N",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Lo de hoy ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 52
+                },
+                "text": "es seguro",
+                "drawing": null
+            }
+        ]
+    },
+    {
+        "start": "0:02:00.31",
+        "end": "0:02:08.80",
+        "text": [
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Mañana ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "un proyecto\\N",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Vamos ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "viviendo la vida",
+                "drawing": null
+            }
+        ]
+    },
+    {
+        "start": "0:02:08.80",
+        "end": "0:02:15.60",
+        "text": [
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Bailemos ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "hasta morir\\N",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Dime por ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "qué se te olvida",
+                "drawing": null
+            }
+        ]
+    },
+    {
+        "start": "0:02:15.60",
+        "end": "0:02:21.99",
+        "text": [
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Es batalla perdida\\N",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Morir por ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "vivir",
+                "drawing": null
+            }
+        ]
+    },
+    {
+        "start": "0:02:21.99",
+        "end": "0:02:30.59",
+        "text": [
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Vamos ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "viviendo la vida\\N",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Bailemos ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "hasta morir",
+                "drawing": null
+            }
+        ]
+    },
+    {
+        "start": "0:02:30.59",
+        "end": "0:02:35.11",
+        "text": [
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Dime por ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "qué se te olvida\\N",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Que es ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "batalla perdida",
+                "drawing": null
+            }
+        ]
+    },
+    {
+        "start": "0:02:35.11",
+        "end": "0:02:56.61",
+        "text": [
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Morir por ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "vivir\\N",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Dime por qué ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "se te olvida",
+                "drawing": null
+            }
+        ]
+    },
+    {
+        "start": "0:02:56.61",
+        "end": "0:03:05.61",
+        "text": [
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Hay tanto ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "frío allá ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "afuera\\N",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Hay tanto ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "fuego en tu piel",
+                "drawing": null
+            }
+        ]
+    },
+    {
+        "start": "0:03:05.61",
+        "end": "0:03:14.40",
+        "text": [
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Yo soy puro ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "y lo que ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "quieras\\N",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Mañana quimeras ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 112
+                },
+                "text": "y la vida un hotel",
+                "drawing": null
+            }
+        ]
+    },
+    {
+        "start": "0:03:14.40",
+        "end": "0:03:23.11",
+        "text": [
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Vamos ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "viviendo la vida\\N",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Bailemos ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "hasta morir",
+                "drawing": null
+            }
+        ]
+    },
+    {
+        "start": "0:03:23.11",
+        "end": "0:03:28.11",
+        "text": [
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Dime por ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "qué se te olvida\\N",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 42
+                },
+                "text": "Que es ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "batalla perdida",
+                "drawing": null
+            }
+        ]
+    },
+    {
+        "start": "0:03:28.11",
+        "end": "0:03:47.43",
+        "text": [
+            {
+                "tag": {
+                    "kf": 102
+                },
+                "text": "Morir por vivir\\N",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "Morir por ",
+                "drawing": null
+            },
+            {
+                "tag": {
+                    "kf": 82
+                },
+                "text": "vivir",
+                "drawing": null
+            }
+        ]
+    },
+    {
+        "start": "0:03:47.43",
+        "end": "0:03:52.83",
+        "text": [
+            {
+                "tag": {
+                    "c2": "D08521"
+                },
+                "text": "*Karamato*",
+                "drawing": null
+            }
+        ]
+    }
+]
