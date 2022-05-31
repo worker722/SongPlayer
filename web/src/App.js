@@ -202,8 +202,6 @@ export default function App({ defaultLang }) {
             } else {
                 subs[index] = sub;
             }
-            console.log(subs)
-            console.log(_.isEqual(subtitle, subs))
             setSubtitle(subs);
         },
         [hasSub, subtitle, setSubtitle],
@@ -313,7 +311,6 @@ export default function App({ defaultLang }) {
                     dialogues = dialogues.map(item => {
                         const startTime = item.start
                         const endTime = item.end
-                    console.log(typeof startTime, startTime)
                     return { ...item, startTime, endTime }
                     })
                     setSubtitleOriginal(dialogues)

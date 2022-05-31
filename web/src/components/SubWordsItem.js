@@ -58,7 +58,6 @@ export default function SubwordsItem({ data, onSave, slice_index, frag_index }) 
         if (!duration || duration < 0) {
             duration = 0
         }
-        console.log({ color, duration });
         setSubTag({ ...data.tag, kf: duration, c1: color })
     }, [data])
 
@@ -67,7 +66,6 @@ export default function SubwordsItem({ data, onSave, slice_index, frag_index }) 
 
         var tag = { ...subTag }
         if (tag.c1) {
-            console.log(tag.c1);
             if (!reg.test(tag.c1)) {
                 alert("Put correct color");
                 return;
@@ -79,7 +77,7 @@ export default function SubwordsItem({ data, onSave, slice_index, frag_index }) 
         setIsUpdated(false)
         onSave({
             ...data,
-            text: subWord,
+            text: subWord?.replace("\n", "\\N"),
             tag
         }, slice_index, frag_index);
     }, [subWord, subTag, onSave])

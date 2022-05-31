@@ -334,8 +334,6 @@ export default function Header({
                     file2sub(file)
                         .then((res) => {
                             // clearSubs();
-                            console.log(res.dialogues);
-                            console.log(res.ass_origin);
                             setSubtitle(res.dialogues);
                             setAssOrigin(res.ass_origin)
                         })

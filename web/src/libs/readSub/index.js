@@ -20,7 +20,6 @@ export function file2sub(file) {
                 dialogues = dialogues.map(item => {
                     const startTime = item.start
                     const endTime = item.end
-                    // console.log(typeof startTime, startTime)
                     return { ...item, startTime, endTime }
                 })
                 resolve({ ass_origin, dialogues })
