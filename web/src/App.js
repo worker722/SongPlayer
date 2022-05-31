@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback, useMemo, useRef } from 'react';
 import NotificationSystem from 'react-notification-system';
-import isEqual from 'lodash/isEqual';
+import _ from 'lodash';
 import styled from 'styled-components';
 import Tool from './components/Tool';
 import Subtitles from './components/Subtitles';
@@ -99,14 +99,14 @@ export default function App({ defaultLang }) {
 
     const setSubtitle = useCallback(
         (newSubtitle, saveToHistory = true) => {
-            if (!isEqual(newSubtitle, subtitle)) {
+            if (!_.isEqual(newSubtitle, subtitle)) {
                 if (saveToHistory) {
                     if (subtitleHistory.current.length >= 1000) {
                         subtitleHistory.current.shift();
                     }
                     subtitleHistory.current.push(subtitle);
                 }
-                window.localStorage.setItem('subtitle', JSON.stringify(newSubtitle));
+                // window.localStorage.setItem('subtitle', JSON.stringify(newSubtitle));
                 setSubtitleOriginal(newSubtitle);
             }
         },
@@ -177,10 +177,10 @@ export default function App({ defaultLang }) {
     const cvNumber = (v) => Math.ceil(v * 100) / 100
 
     const updateSub = useCallback(
-        (sub, obj) => {
+        (sub, obj, forceUpdate = false) => {
             const index = hasSub(sub);
             if (index < 0) return;
-            const subs = [...subtitle];
+            const subs = _.cloneDeep(subtitle);
 
             if ('start' in obj) {
                 obj.start = cvNumber(obj.start)
@@ -197,7 +197,13 @@ export default function App({ defaultLang }) {
             }
             sub = { ...sub, ...obj }
 
-            subs[index] = sub;
+            if (_.isEqual(subtitle, subs) && forceUpdate) {
+                subs[index] = { ...sub, key: Math.ceil(Math.random() * 100) };
+            } else {
+                subs[index] = sub;
+            }
+            console.log(subs)
+            console.log(_.isEqual(subtitle, subs))
             setSubtitle(subs);
         },
         [hasSub, subtitle, setSubtitle],
@@ -297,7 +303,7 @@ export default function App({ defaultLang }) {
     }, [currentTime, subtitle]);
 
     useEffect(() => {
-        const localSubtitleString = window.localStorage.getItem('subtitle');
+        // const localSubtitleString = window.localStorage.getItem('subtitle');
         const fetchSubtitle = () =>
             fetch('/sample.json')
                 .then((res) => res.json())
@@ -307,25 +313,27 @@ export default function App({ defaultLang }) {
                     dialogues = dialogues.map(item => {
                         const startTime = item.start
                         const endTime = item.end
-                        return { ...item, startTime, endTime }
+                    console.log(typeof startTime, startTime)
+                    return { ...item, startTime, endTime }
                     })
                     setSubtitleOriginal(dialogues)
                 });
 
-        if (localSubtitleString) {
-            try {
-                const localSubtitle = JSON.parse(localSubtitleString);
-                if (localSubtitle) {
-                    setSubtitleOriginal(localSubtitle);
-                } else {
-                    fetchSubtitle();
-                }
-            } catch (error) {
-                fetchSubtitle();
-            }
-        } else {
-            fetchSubtitle();
-        }
+        // if (localSubtitleString) {
+        //     try {
+        //         const localSubtitle = JSON.parse(localSubtitleString);
+        //         if (localSubtitle) {
+        //             setSubtitleOriginal(localSubtitle);
+        //         } else {
+        //             fetchSubtitle();
+        //         }
+        //     } catch (error) {
+        //         fetchSubtitle();
+        //     }
+        // } else {
+        //     fetchSubtitle();
+        // }
+        fetchSubtitle();
     }, [setSubtitleOriginal]);
 
     const props = {

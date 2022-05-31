@@ -333,7 +333,9 @@ export default function Header({
                 if (['ass', 'vtt', 'srt', 'json'].includes(ext)) {
                     file2sub(file)
                         .then((res) => {
-                            clearSubs();
+                            // clearSubs();
+                            console.log(res.dialogues);
+                            console.log(res.ass_origin);
                             setSubtitle(res.dialogues);
                             setAssOrigin(res.ass_origin)
                         })
